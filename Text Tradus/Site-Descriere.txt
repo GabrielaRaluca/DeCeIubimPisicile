@@ -1,0 +1,10 @@
+Proiect tehnici web
+"De ce iubim...pisicile"
+
+Descriere: Va fi un site cu si despre pisici ce va contine informatii despre:
+
+	- pisici si rolul lor in istorie/mitologie
+	- cum trebuie ingrijite pisicile
+	- hanging out with cats - cafenele cu pisici
+	- imagini/clipuri amuzante cu pisici
+	- Sara, my precious cat - voi scrie aici cate putin despre pisica mea

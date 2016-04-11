@@ -1,0 +1,944 @@
+body
+{
+	background-image:url('fundalSara3tiny.JPG');
+	margin:0;
+	padding:0;
+
+}
+/*HOMEPAGE*/
+
+#pisica
+{
+	display:inline-block;
+	width:25%;
+	float:left;
+}
+header#headerHome
+{
+	width:100%;
+	padding-top:0;
+}
+#title
+{
+	font-family:Verdana;
+	color:black;
+	font-size:4em;
+	margin-top:7%;
+	margin-left:13%;
+	float:left;
+}
+
+
+#pozahome
+{
+	width:35%;
+	margin-left:30%;
+	margin-top:9%;
+	margin-bottom:0;
+}
+#button
+{
+
+	width:20%;
+	text-align:center;
+	clear:both;
+	margin:auto;
+	padding-top:5%;
+	
+}
+#button a
+{
+	font-family: Verdana;
+	font-size: 1.5em;
+	font-weight:bold;
+}
+#paw
+{	
+	width:18%;
+	vertical-align:middle;
+}
+#paw:hover{
+	width:22%;
+}
+
+
+/*HOMEPAGE*/
+h1.titleMain
+{
+	display:inline-block;
+	text-align:center;
+	font-family:Verdana;
+	font-size:2vw;
+	position:relative;
+	margin-top:3%;
+	margin-bottom:2%;
+	left:25%;
+
+}
+#pisicaAll
+{
+	display:inline-block;
+	float:left;
+	width:13%;
+}
+header.mainHeader
+{
+	background-image:url('fundalSara3tiny.JPG');
+	width:100%;
+	position:fixed;
+	margin-top:0%;
+	z-index:99999;
+}
+/*artificiu ca sa ma duca unde trebuie in pagina*/
+#beforeIndia
+{
+	padding-top:12%;
+	margin-top:-12%;
+	width:100%;
+}
+#beforePersia
+{
+	padding-top:12%;
+	margin-top:-12%;
+	width:100%;
+}
+#beforeChina
+{
+	padding-top:12%;
+	margin-top:-12%;
+	width:100%;
+}
+#beforeJaponia
+{
+	padding-top:12%;
+	margin-top:-12%;
+	width:100%;
+}
+#beforeEuropa
+{
+	padding-top:12%;
+	margin-top:-12%;
+	width:100%;
+}
+#beforeMareaBritanie
+{
+	padding-top:12%;
+	margin-top:-12%;
+	width:100%;
+}
+div#content
+{
+	padding-top:12%;
+	padding-bottom:5%;
+	width:80%;
+	margin:auto;	
+}
+
+#menunav
+{
+	width:100%;
+	text-align:center;
+	background-color:rgba(221, 156, 113, 0.5);
+	border-top:1px solid brown;
+	border-bottom:1px solid brown;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0.5%;
+}
+
+li.menu
+{
+	font-family:Verdana;
+	display:inline-block;
+	font-size:1.1vw;
+	margin-left:2%;
+	margin-right:0;
+	
+}
+#menunav>ul>li#home>a
+{
+	color:brown;
+}
+#menunav>ul>li#pg1>a
+{
+	color:brown;
+}
+#menunav>ul>li#pg2>a
+{
+	color:brown;
+}
+#menunav>ul>li#pg3>a
+{
+	color:brown;
+}
+#menunav>ul>li#pg4>a
+{
+	color:brown;
+}
+
+li.menu:hover
+{
+	font-size:1.3vw;
+	margin-left:2%;
+}
+
+.submenu
+{
+	display:none;
+	position:absolute;
+	width:20%;
+	padding:0%;
+	padding-top:0.5%;
+	text-align:center;
+	margin-left:3%;
+	border-left:1px solid brown;
+	border-bottom:1px solid brown;
+	border-right:1px solid brown;
+}
+
+.menu:hover .submenu
+{
+	display:block;
+	border-radius:10%;
+	background-image:url('fundalSara3tiny.JPG');
+	padding:0;
+}
+
+.submenu li
+{
+	font-family:Verdana;
+	background-color:rgba(221, 156, 113, 0.5);
+}
+.submenu a
+{
+	font-size: 0.9vw;
+}
+.submenu a:hover
+{
+	font-size:1.1vw;
+	
+}
+ul
+{
+	list-style-type: none;
+}
+a
+{
+	text-decoration:none;
+	color:black;
+}
+
+
+.info p
+{
+	font-size:1.1vw;
+	font-family:Verdana;
+}
+.info h2
+{
+	font-family:Verdana;
+	font-size:1.3vw;
+}
+
+.info
+{
+	padding:2%;
+	background-color:rgba(221, 156, 113, 0.5);
+	margin-top:5%;
+	border-radius:10%;
+}
+.singlePhoto
+{
+	width:15%;
+	margin-left:45%;
+}
+.singlePhoto:hover
+{
+	
+	margin-top:2.5%;
+	margin-bottom:2%;
+	-ms-transform: scale(1.3,1.3); /* IE 9 */
+    -webkit-transform: scale(1.3,1.3); /* Safari */
+    transform: scale(1.3,1.3); /* Standard syntax */
+
+}
+.reguli    /*cum avem grija de pisica */
+{
+	font-size:1vw;
+	font-family:Verdana;
+}
+
+.threeInARow
+{
+	margin-left:20%;
+	padding:0;
+}
+	.threeInARow1
+	{
+		display:inline-block;
+		width:25%;
+	}
+
+	.threeInARow2
+	{
+		display:inline-block;
+		width:25%;
+		margin-left:1%;
+	}
+	.threeInARow3
+	{
+		display:inline-block;
+		width:25%;
+		margin-left:1%;
+	}
+.threeInARow:hover
+{
+	margin-top:3%;
+	margin-bottom:2%;
+	-ms-transform: scale(1.3,1.3); /* IE 9 */
+    -webkit-transform: scale(1.3,1.3); /* Safari */
+    transform: scale(1.3,1.3);
+}
+
+.twoInARow
+{
+	margin-left:35%;
+	padding:0;
+}
+
+	.twoInARow1
+	{
+		display:inline-block;
+		width:25%;
+		padding:0;
+	}
+
+	.twoInARow2
+	{
+		display:inline-block;
+		width:25%;
+		margin-left:1%;
+		padding:0;
+	}
+.twoInARow:hover
+{
+	margin-left:50%;
+	margin-top:2%;
+	margin-bottom:2%;
+	-ms-transform: scale(1.8,1.8); /* IE 9 */
+    -webkit-transform: scale(1.8,1.8); /* Safari */
+    transform: scale(1.8,1.8);
+}
+	
+#sara6
+{
+	margin-left:15%;
+	padding:0;
+}
+
+	#sara61
+	{
+		display:inline-block;
+		width:20%;
+		padding:0;
+	}
+
+	#sara62
+	{
+		display:inline-block;
+		width:20%;
+		margin-left:1%;
+		padding:0;
+	}
+	#sara63
+	{
+		display:inline-block;
+		width:20%;
+		margin-left:1%;
+		padding:0;
+	}
+	#sara64
+	{
+		display:inline-block;
+		width:20%;
+		margin-left:1%;
+		padding:0;
+	}
+
+#sara6:hover
+{
+	margin-top:2%;
+	margin-bottom:2%;
+	-ms-transform: scale(1.4,1.4); /* IE 9 */
+    -webkit-transform: scale(1.4,1.4); /* Safari */
+    transform: scale(1.4,1.4);
+	margin-left:20%;
+}
+footer
+{
+	font-family:Verdana;
+	bottom:0;
+	margin:auto;
+	width:80%;
+	background-color:rgba(221, 156, 113, 0.5);
+	text-align:center;
+	border:1px solid black;
+
+}
+
+
+@media screen and (min-width: 791px) and (max-width: 1450px)/*dimensiunea ferestrei*/
+{
+footer
+{
+	margin-top:7%;
+}
+#title
+{
+	margin-left:auto;
+	margin-right:auto;
+	font-size:6vw;
+}
+
+#button a
+{
+	font-size:2.5vw;
+}
+#button
+{
+	width:65%;
+	padding-top:25%;
+}
+#pozahome
+{
+	width:75%;
+	margin-left:12%;
+	margin-top:20%;
+}
+
+.titleMain
+{
+	font-size:3vw;
+}
+.info p
+{
+	font-size:2vw;
+}
+.info h2
+{
+	font-size:2.5vw;
+}
+
+.reguli li  /*cum avem grija de pisica */
+{
+	font-size:1.9vw;
+}
+li.menu
+{
+	width:47%;
+	padding:1%;
+	font-size:1.9vw;
+	padding:0;
+	height:5%;
+	overflow:hidden;
+}
+
+li.menu:hover
+{
+
+	font-size:2.1vw;
+}
+#menunav
+{
+	padding:0;
+}
+#menunav>ul
+{
+	padding:0;
+}
+
+div#content
+{
+	padding-top:20%;
+}
+.submenu
+{
+	width:40%;
+	margin-left:3%;
+}
+.submenu a
+{
+	font-size:1.7vw;
+}
+.submenu a:hover
+{
+	font-size:1.9vw;
+}
+/*artificiu ca sa ma duca unde trebuie in pagina*/
+#beforeIndia
+{
+	padding-top:20%;
+	margin-top:-20%;
+	width:100%;
+}
+#beforePersia
+{
+	padding-top:20%;
+	margin-top:-20%;
+	width:100%;
+}
+#beforeChina
+{
+	padding-top:20%;
+	margin-top:-20%;
+	width:100%;
+}
+#beforeJaponia
+{
+	padding-top:20%;
+	margin-top:-20%;
+	width:100%;
+}
+#beforeEuropa
+{
+	padding-top:20%;
+	margin-top:-20%;
+	width:100%;
+}
+#beforeMareaBritanie
+{
+	padding-top:20%;
+	margin-top:-20%;
+	width:100%;
+}
+.singlePhoto:hover
+{
+	
+	margin-top:8%;
+	margin-bottom:8%;
+	-ms-transform: scale(1.8,1.8); /* IE 9 */
+    -webkit-transform: scale(1.8,1.8); /* Safari */
+    transform: scale(1.8,1.8); /* Standard syntax */
+}	
+.twoInARow
+{
+	margin-left:35%;
+	padding:0;
+}
+
+	.twoInARow1
+	{
+		display:inline-block;
+		width:25%;
+		padding:0;
+	}
+
+	.twoInARow2
+	{
+		display:inline-block;
+		width:25%;
+		margin-left:1%;
+		padding:0;
+	}
+.twoInARow:hover
+{
+
+	margin-left:50%;
+	margin-top:4%;
+	margin-bottom:4%;
+	-ms-transform: scale(2.1,2.1); /* IE 9 */
+    -webkit-transform: scale(2.1,2.1); /* Safari */
+    transform: scale(2.1,2.1);
+}
+
+#sara6
+{
+	margin-left:15%;
+	padding:0;
+}
+
+	#sara61
+	{
+		display:inline-block;
+		width:20%;
+		padding:0;
+	}
+
+	#sara62
+	{
+		display:inline-block;
+		width:20%;
+		margin-left:0.5%;
+		padding:0;
+	}
+	#sara63
+	{
+		display:inline-block;
+		width:20%;
+		margin-left:0.5%;
+		padding:0;
+	}
+	#sara64
+	{
+		display:inline-block;
+		width:20%;
+		margin-left:0.5%;
+		padding:0;
+	}
+
+#sara6:hover
+{
+	margin-top:5%;
+	margin-bottom:5%;
+	-ms-transform: scale(1.5,1.5); /* IE 9 */
+    -webkit-transform: scale(1.5,1.5); /* Safari */
+    transform: scale(1.5,1.5);
+	margin-left:20%;
+}
+
+.threeInARow
+{
+	margin-left:20%;
+	padding:0;
+}
+	.threeInARow1
+	{
+		display:inline-block;
+		width:25%;
+	}
+
+	.threeInARow2
+	{
+		display:inline-block;
+		width:25%;
+		margin-left:1%;
+	}
+	.threeInARow3
+	{
+		display:inline-block;
+		width:25%;
+		margin-left:1%;
+	}
+.threeInARow:hover
+{
+	margin-top:5%;
+	margin-bottom:4%;
+	-ms-transform: scale(1.5,1.5); /* IE 9 */
+    -webkit-transform: scale(1.5,1.5); /* Safari */
+    transform: scale(1.5,1.5);
+	margin-left:25%;
+}
+}
+
+
+
+@media screen and (min-width : 0px) and (max-width: 790px)/*dimensiunea ferestrei*/
+{
+footer
+{
+	display:none;
+}
+
+#title
+{
+	font-size:10vw;
+	margin:auto;
+	margin-top:20%;
+}
+#button a
+{
+	font-size:5vw;
+}
+#button
+{	width:60%;
+	margin:auto;
+	padding-top:25%;
+}
+#pisica
+{
+	width:35%;
+	margin-left:0;
+}
+
+#pozahome
+{	
+	margin-left:20%;
+	width:60%;
+	margin-top:23%;
+}
+
+
+
+#pisicaAll
+{
+	display:inline-block;
+	width:25%;
+	float:left;
+	margin-top:7%;
+}
+h1.titleMain
+{
+	display:block;
+	font-size:4vw;
+	text-align:center;
+	position:static;
+	float:none;
+	padding-top:2%;
+	margin:auto;
+	margin-top:0;	
+	text-align:center;
+}
+header.mainHeader
+{
+	background-color:rgba(221, 156, 113, 0.5);
+	background-image:none;
+	position:static;
+}
+div#content
+{
+	padding-top:0;
+}
+#menunav
+{
+	border:none;
+	margin-top:0;
+	margin-left:2%;
+	text-align:right;
+	width:62%;
+	background-color:transparent;
+	display:inline-block;
+	padding:0;
+}
+
+.info
+{
+	border-radius:0;
+}
+
+
+
+li.menu
+{
+	width:100%;
+	padding:1%;
+	font-size:2.5vw;
+	border-top: 1px solid black;
+}
+
+
+li.menu:hover
+{
+	font-size:2.9vw;
+}
+
+.submenu
+{
+	width:100%;
+	margin-left:0;
+	padding-right:0;
+	border-bottom:none;
+}
+
+.menu:hover .submenu
+{
+	position:relative;
+	border-radius:0;
+}
+
+.submenu li
+{
+	text-align:right;
+	background-color:rgba(221, 156, 113, 0.5);
+	width:100%;
+}
+.submenu a
+{
+	font-size:2.2vw;
+}
+.submenu a:hover
+{
+	font-size:2.5vw;
+}
+.info p
+{
+	font-size:2.7vw;
+}
+.info h2
+{
+	font-size:2.9vw;
+}
+
+.reguli li  /*cum avem grija de pisica */
+{
+	font-size:2.6vw;
+}
+/*artificiu ca sa ma duca unde trebuie in pagina*/
+#beforeIndia
+{
+	padding-top:45%;
+	margin-top:-45%;
+	width:100%;
+}
+#beforePersia
+{
+	padding-top:45%;
+	margin-top:-45%;
+	width:100%;
+}
+#beforeChina
+{
+	padding-top:45%;
+	margin-top:-45%;
+	width:100%;
+}
+#beforeJaponia
+{
+	padding-top:45%;
+	margin-top:-45%;
+	width:100%;
+}
+#beforeEuropa
+{
+	padding-top:45%;
+	margin-top:-45%;
+	width:100%;
+}
+#beforeMareaBritanie
+{
+	padding-top:45%;
+	margin-top:-45%;
+	width:100%;
+}
+.singlePhoto
+{
+	width:100%;
+	margin-left:0;
+	margin-right:0;
+}
+.singlePhoto:hover
+{
+	width:100%;
+	margin-left:0;
+	margin-top:0;
+	margin-bottom:0;
+	-ms-transform: scale(1,1); /* IE 9 */
+    -webkit-transform: scale(1,1); /* Safari */
+    transform: scale(1,1); /* Standard syntax */
+	
+}
+
+.threeInARow
+{
+	margin-left:0;
+	margin-bottom:5%;
+}
+
+	.threeInARow1
+	{
+		width:100%;
+		display:block;
+		padding-bottom:2%;
+		margin-left:1%;
+	}
+
+	.threeInARow2
+	{
+		width:100%;
+		display:block;
+		padding-bottom:2%;
+	}
+	.threeInARow3
+	{
+		width:100%;
+		display:block;
+		padding-bottom:2%;
+	}
+
+.threeInARow:hover
+{
+	width:100%;
+	margin-left:0;
+	margin-bottom:5%;
+	margin-top:0;
+	-ms-transform: scale(1,1); /* IE 9 */
+    -webkit-transform: scale(1,1); /* Safari */
+    transform: scale(1,1);
+}
+.twoInARow
+{
+	margin-left:0;
+	margin-bottom:5%;
+	
+}
+
+	.twoInARow1
+	{
+		width:100%;
+		display:block;
+		padding-bottom:2%;
+		margin-left:1%;
+	}
+
+	.twoInARow2
+	{
+		width:100%;
+		display:block;
+		padding-bottom:2%;
+	}
+.twoInARow:hover
+{
+	width:100%;
+	margin-left:0;
+	margin-bottom:5%;
+	margin-top:0;
+	-ms-transform: scale(1,1); /* IE 9 */
+    -webkit-transform: scale(1,1); /* Safari */
+    transform: scale(1,1);
+}
+
+#sara6
+{
+	margin-left:0;
+	margin-bottom:5%;
+}
+
+	#sara61
+	{
+		width:100%;
+		display:block;
+		padding-bottom:2%;
+		margin-left:1%;
+	}
+
+	#sara62
+	{
+		width:100%;
+		display:block;
+		padding-bottom:2%;
+	}
+	#sara63
+	{
+		width:100%;
+		display:block;
+		padding-bottom:2%;
+	}
+	#sara64
+	{
+		width:100%;
+		display:block;
+		padding-bottom:2%;
+	}
+
+
+#sara6:hover
+{
+	width:100%;
+	margin-left:0;
+	margin-bottom:5%;
+	margin-top:0;
+	-ms-transform: scale(1,1); /* IE 9 */
+    -webkit-transform: scale(1,1); /* Safari */
+    transform: scale(1,1);
+
+}
+}
